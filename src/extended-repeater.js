@@ -20,7 +20,6 @@ module.exports = function repeater(str, options) {
         return (str + (addition + additionSeparator)
              .repeat(additionRepeatTimes)
              .slice(0, -additionSeparator.length) + separator)
-             .repeat(repeatTimes)
-             .slice(0, -separator.length);
+             .repeat(repeatTimes);
 };
   
