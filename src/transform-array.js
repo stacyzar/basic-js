@@ -41,9 +41,5 @@ module.exports = function transform(arr) {
 		}
 	}
 
-	return modifiedArr;
-     
-            
-  
-  
+	return modifiedArr; 
 };
